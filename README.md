@@ -28,22 +28,22 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # Documentation
 
--Install angular 5.
--Investigate best css framework.
--Found 5 options opted for Ulkit.
--Create 2 components and a service vía ng command line.
-Investigate new promise replacement. subscribe observe.
-Put a and b component in main component.
-Use @input to comunicate the parent and child’s components //deprecated.
-Elaborate A component.
-Elaborate B component.
-Make components work with angular routing.
-Build modal.
-Styling.
-	Implement framework.
-	Style.
-Clean up the code.
-Do some unit test to the service.
-Upload code to git repository.
-TODO: next time make this by commits rather than one big commit.
-check documentation.
+Install angular 5.
+<br/>Investigate best css framework.
+<br/>Found 5 options opted for Ulkit.
+<br/>Create 2 components and a service vía ng command line.
+<br/>Investigate new promise replacement. subscribe observe.
+<br/>Put a and b component in main component.
+<br/>Use @input to comunicate the parent and child’s components //deprecated.
+<br/>Elaborate A component.
+<br/>Elaborate B component.
+<br/>Make components work with angular routing.
+<br/>Build modal.
+<br/>Styling.
+<br/>	Implement framework.
+<br/>	Style.
+<br/>Clean up the code.
+<br/>Do some unit test to the service.
+<br/>Upload code to git repository.
+<br/>TODO: next time make this by commits rather than one big commit.
+<br/>check documentation.

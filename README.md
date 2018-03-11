@@ -25,3 +25,25 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# Documentation
+
+Install angular 5.
+Investigate best css framework.
+Found 5 options opted for Ulkit.
+Create 2 components and a service vía ng command line.
+Investigate new promise replacement. subscribe observe.
+Put a and b component in main component.
+Use @input to comunicate the parent and child’s components //deprecated.
+Elaborate A component.
+Elaborate B component.
+Make components work with angular routing.
+Build modal.
+Styling.
+	Implement framework.
+	Style.
+Clean up the code.
+Do some unit test to the service.
+Upload code to git repository.
+TODO: next time make this by commits rather than one big commit.
+check documentation.

@@ -1,0 +1,18 @@
+<div (click)="changeComponent()" id="component-b" class="uk-card uk-card-default uk-card-body uk-width-1-2@m uk-align-center">
+    <p class="uk-text-lead">
+        <span class="uk-text-bold title">Launch Site:</span>
+        <span class="uk-text-primary value">{{launch.launch_site.site_name_long}}</span>
+    </p>
+
+    <button class="uk-button uk-button-primary uk-margin-small-right uk-width-1-1" type="button" uk-toggle="target: #modal-media-video">Watch Video</button>
+
+    <!-- This is the modal start-->
+    <div id="modal-media-video" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body">
+            <h4 class="uk-text-lead">Launch Video</h4>
+            <iframe id="iframe-video" uk-video [src]="transform(launch.links.video_link)"></iframe>
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+        </div>
+    </div>
+    <!-- This is the modal end-->
+</div>

@@ -1,0 +1,17 @@
+#main-component .uk-text-lead {
+    font-size: 1.2rem;
+}
+
+#main-component .uk-modal-header {
+    text-align: center;
+}
+
+#main-component .logo-image {
+    width: 30rem;
+    margin-top: -1rem;
+}
+
+#main-component .header-subtitle {
+    font-size: 0.9rem;
+    margin: 0;
+}

@@ -1,0 +1,19 @@
+<div id="component-a" class="uk-card uk-card-default uk-card-body uk-width-1-2@m uk-align-center" (click)="changeComponent()">
+    <ul class="uk-list uk-list-divider">
+        <li><span class="uk-text-bold title">Flight Number:</span>
+            <span class="uk-text-primary value">{{launch.flight_number}}</span>
+        </li>
+        <li><span class="uk-text-bold title">Launch Year:</span>
+            <span class="uk-text-primary value">{{launch.launch_year}}</span>
+        </li>
+        <li><span class="uk-text-bold title">Rocket Name:</span>
+            <span class="uk-text-primary value">{{launch.rocket.rocket_name}}</span>
+        </li>
+        <li><span class="uk-text-bold title">Rocket Type:</span>
+            <span class="uk-text-primary value">{{launch.rocket.rocket_type}}</span>
+        </li>
+        <li><span class="uk-text-bold title">Launch Mission Patch:</span>
+            <img height="70" width="70" [src]="launch.links.mission_patch">
+        </li>
+    </ul>
+</div>

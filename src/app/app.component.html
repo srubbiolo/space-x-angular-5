@@ -1,0 +1,15 @@
+<div id="main-component" class="uk-container uk-animation-fade">
+  <div class="uk-modal-header">
+    <img class="logo-image" uk-tooltip="title: SpaceX Logo; delay: 500" src="assets/images/spacex-logo.png">
+    <h1 class="uk-text-lead header-subtitle" >A list of all SpaceX Launches</h1>
+  </div>
+
+  <div class="uk-align-center uk-width-1-2@m">
+  <h3 class="uk-text-lead" >Select a launch</h3>
+  <select [(ngModel)]="selectedValue" class="uk-select" (change)="changedSelection()">
+    <option *ngFor="let launch of allLaunches" [ngValue]="launch">{{launch.flight_number}}</option>
+  </select>
+  </div>
+  <router-outlet></router-outlet>
+</div>
+

@@ -28,10 +28,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # Documentation
 
-Install angular 5.
-Investigate best css framework.
-Found 5 options opted for Ulkit.
-Create 2 components and a service vía ng command line.
+-Install angular 5.
+-Investigate best css framework.
+-Found 5 options opted for Ulkit.
+-Create 2 components and a service vía ng command line.
 Investigate new promise replacement. subscribe observe.
 Put a and b component in main component.
 Use @input to comunicate the parent and child’s components //deprecated.
